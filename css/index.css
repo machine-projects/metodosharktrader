@@ -115,14 +115,13 @@ html {
   font-size: x-large;
 }
 
-
 /* FONT WEIGHT */
 .font-weight-bold {
   font-weight: 700 !important;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif !important; 
+  font-family: "Montserrat", sans-serif !important;
 }
 
 /* --------------------------------------- END OF GLOBALS----------------------------------------------- */
@@ -132,17 +131,17 @@ body {
 @keyframes buttonPulse {
   0% {
     transform: scale(1);
-    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.72);
+    box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.72);
   }
 
   50% {
     transform: scale(1.05);
-    box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.72);
+    box-shadow: 0px 0px 13px 6px rgba(0, 0, 0, 0.72);
   }
 
   100% {
     transform: scale(1);
-    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.72);
+    box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.72);
   }
 }
 
@@ -244,7 +243,6 @@ body {
   font-size: 450%;
 }
 
-
 .garantaoseu button {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -255,14 +253,13 @@ body {
   animation-play-state: paused;
 }
 
-.garantaoseu .card{
+.garantaoseu .card {
   margin-bottom: 8%;
   margin-top: 6%;
   border-radius: 30px;
   box-shadow: 0 0 10px 0 white;
   background-color: black;
   color: white;
-  
 }
 
 .card-title {
@@ -294,7 +291,7 @@ li {
   animation: buttonPulse 1s ease infinite;
   font-size: x-large;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   white-space: nowrap;
   width: fit-content !important;
 }
@@ -381,10 +378,10 @@ li {
 .timer .hour-number {
   font-size: 450%;
 }
- .timer table {
+.timer table {
   border-color: white;
 }
- .timer table p{
+.timer table p {
   border-color: white;
   margin-top: -15%;
 }
@@ -399,4 +396,59 @@ li {
 
 .custom-justify {
   text-align: justify;
+}
+
+.instagram {
+  text-align: center;
+  color: #fff;
+}
+
+.instagram img {
+  margin: 2%;
+}
+
+.instagram button {
+  margin: 3%;
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0a06ff;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 3px 0 #000;
+}
+
+.duvidas {
+  text-align: center;
+}
+
+.duvidas h2 {
+  margin-top: 2%;
+}
+.duvidas hr {
+  color: red;
+}
+.duvidas .btn {
+ color: #fff;
+ 
+}
+.duvidas .btn-outline-info:hover {
+ background-color: #ffd700;
+ color: black;
+}
+
+.duvidas .card {
+  margin-bottom: 2%;
+  margin-top: 0.5%;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+}
+.footer button{
+  margin-bottom: 1%;
+  border-radius: 30px
+}
+.footer .footer-bottom-container{
+  color: rgb(224, 212, 212);
 }
