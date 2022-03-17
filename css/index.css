@@ -1,6 +1,5 @@
 /* fonts | POPPINS | MONTSERRAT | ROBOTO | ROBOTO SLAB |  */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&family=Roboto+Slab&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&family=Roboto+Slab&display=swap");
 
 /* COLORS */
 :root {
@@ -38,6 +37,9 @@
 .blue {
   color: var(--bg-and-text-medium-blue);
 }
+.red {
+  color: red;
+}
 
 .neon-blue {
   color: var(--text-neon-blue);
@@ -59,19 +61,19 @@
 /* FONT STYLES */
 /* FAMILY */
 .roboto {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .montserrat {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .poppins {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .roboto-slab {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 /* FONTSIZE */
@@ -101,7 +103,6 @@ html {
 .font-weight-bold {
   font-weight: 700;
 }
-
 
 /* --------------------------------------- END OF GLOBALS----------------------------------------------- */
 
@@ -173,7 +174,6 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-
 .text-white {
   color: white;
 }
@@ -187,18 +187,22 @@ html {
   background-image: url(../img/shark-background.webp);
   text-align: center;
   margin-bottom: 2%;
-
+}
+.testimonials .margin-testimonials {
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
-.testimonials .col img {
-  width: 250px;
+.testimonials .col-md img {
+  width: 70%;
   border-radius: 20px;
   margin-bottom: 7%;
+  margin-top: 7%;
 }
 
 .testimonials .margin-testimonials {
-  margin-right: 80px;
-  margin-left: 80px;
+  /* margin-right: 80px;
+  margin-left: 80px; */
 }
 
 .red-line {
@@ -208,9 +212,31 @@ html {
   text-align: center;
 }
 
-
 .garantaoseu {
   background-image: url(../img/shark-background.webp);
+  text-align: center;
+}
+.garantaoseu h1 {
+  font-size: 450%;
+}
+
+
+.garantaoseu button {
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+
+}
+
+
+.garantaoseu .card{
+  margin-bottom: 8%;
+  margin-top: 6%;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 0 white;
+  background-color: black;
+  color: white;
+  
 }
 
 .contentacess {
@@ -263,26 +289,63 @@ html {
   box-shadow: 0px 0px 10px -1px black;
 }
 
-
 .garantia-7-dias {
-text-align: center;
-}
-
-.garantia-7-dias img {
-width: 75%;
-}
-.garantia-7-dias button {
-margin-top: 2%;
-margin-bottom: 2%;
-width: 100%;
-}
-
-.member-area {
-  
   text-align: center;
 }
 
-.member-area iframe{
-  
-margin-bottom: 2%;
+.garantia-7-dias img {
+  width: 75%;
+}
+.garantia-7-dias button {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.member-area {
+  text-align: center;
+}
+
+.member-area iframe {
+  margin-bottom: 2%;
+}
+
+.bonus {
+  /* margin: 2%; */
+  text-align: center;
+  background-color: #6297ec1f;
+}
+.bonus .card {
+  margin-bottom: 8%;
+  margin-top: 6%;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 0 #6297ec;
+}
+
+.bonus .col-md-3 {
+  background-color: #6298;
+  margin: 2%;
+  border-radius: 30px;
+}
+
+.timer {
+  text-align: center;
+}
+
+.timer .hour-number {
+  color: var(--red-lines-price-time);
+  font-size: 300%;
+}
+.timer .hour-number {
+  font-size: 450%;
+}
+ .timer table {
+  border-color: white;
+}
+ .timer table p{
+  border-color: white;
+  margin-top: -15%;
+}
+.timer img {
+  max-width: 28%;
 }
