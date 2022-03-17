@@ -1,5 +1,160 @@
+/* fonts | POPPINS | MONTSERRAT | ROBOTO | ROBOTO SLAB |  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&family=Roboto+Slab&display=swap');
+
+
+/* COLORS */
+:root {
+  --bg-light-blue: #eaf1fd;
+  --bg-and-text-medium-blue: #3270bc;
+  --text-neon-blue: #00ffff;
+  --button-standard-yellow: #ffd700;
+  --red-lines-price-time: #ff0000;
+  --grey-footer: #626262;
+  --grey-text: #7c7c7c;
+}
+
+/* BACKGROUND */
+.bg-light-blue {
+  background-color: var(--bg-light-blue);
+}
+
+.bg-blue {
+  background-color: var(--bg-and-text-medium-blue);
+}
+
+.bg-red {
+  background-color: var(--red-lines-price-time);
+}
+
+.bg-grey {
+  background-color: var(--grey-footer);
+}
+
+.bg-black {
+  background-color: black;
+}
+
+/* TEXT */
+.blue {
+  color: var(--bg-and-text-medium-blue);
+}
+
+.neon-blue {
+  color: var(--text-neon-blue);
+}
+
+.grey {
+  color: var(--grey-text);
+}
+
+.red {
+  color: var(--red-lines-price-time);
+}
+
+/* BUTTON */
+.yellow {
+  background-color: var(--button-standard-yellow);
+}
+
+/* FONT STYLES */
+/* FAMILY */
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.roboto-slab {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* FONTSIZE */
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+/* FONT WEIGHT */
+.font-weight-bold {
+  font-weight: 700;
+}
+
+
+/* --------------------------------------- END OF GLOBALS----------------------------------------------- */
+
+/* --------------------------------------- ANIMATIONS --------------------------------------------- */
+
+@keyframes buttonPulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes imgSlideLeft {
+  from {
+    transform: translateX(200px);
+  }
+
+  to {
+    transform: translateX(-12%);
+  }
+}
+
+@keyframes imgSlideRight {
+  from {
+    transform: translateX(-200px);
+  }
+
+  to {
+    transform: translateX(12%);
+  }
+}
+
+@keyframes imgSlideUp {
+  from {
+    transform: translateY(200px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+/* --------------------------------------- END OF ANIMATIONS ----------------------------------------------- */
+
 .alerheader {
-  background-color: red;
+  background-color: var(--red-lines-price-time);
   color: white;
   fontsize: 17px;
 }
@@ -13,12 +168,14 @@
   text-align: center;
 }
 
-
-.header .text-white {
-    color: white;
+.custom-1 {
+  line-height: 40px;
+  -webkit-font-smoothing: antialiased;
 }
-.header .text-blue {
-    color: #2874fc;
+
+
+.text-white {
+  color: white;
 }
 
 .logo {
@@ -26,32 +183,106 @@
   height: 94px;
 }
 
-.background-light-blue {
-  background-color: #eaf1fd;
-}
-
-.background-blue {
-  background-color: #3270bc;
-}
-
 .testimonials {
   background-image: url(../img/shark-background.webp);
+  text-align: center;
+  margin-bottom: 2%;
+
+}
+
+.testimonials .col img {
+  width: 250px;
+  border-radius: 20px;
+  margin-bottom: 7%;
+}
+
+.testimonials .margin-testimonials {
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 .red-line {
   height: 3px;
-  width: 10%;
-  background-color: red;
+  width: 100%;
+  background-color: var(--red-lines-price-time);
+  text-align: center;
 }
 
-.background-medium-blue {
-  background-color: #548cde;
-}
 
 .garantaoseu {
   background-image: url(../img/shark-background.webp);
 }
 
-.garantir-acesso-card-container {
-  background-color: black;
+.contentacess {
+  text-align: center;
+  color: white;
+}
+
+.contentacess .col-md-4 {
+  background-color: #151515;
+  border-radius: 30px;
+  margin: 15px;
+}
+
+.contentacess button {
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.pulse {
+  animation: buttonPulse 1s ease infinite;
+}
+
+#photo3.animate {
+  animation: imgSlideLeft 1s ease-out forwards;
+}
+
+#photo1.animate {
+  animation: imgSlideRight 1s ease-out forwards;
+}
+
+#photo2.animate {
+  animation: imgSlideUp 1s ease-out forwards;
+}
+
+#photo2 {
+  position: relative;
+  height: 100%;
+  z-index: 1;
+}
+
+#photo1,
+#photo3 {
+  height: 95%;
+  overflow: hidden;
+}
+
+#photo1,
+#photo2,
+#photo3 {
+  box-shadow: 0px 0px 10px -1px black;
+}
+
+
+.garantia-7-dias {
+text-align: center;
+}
+
+.garantia-7-dias img {
+width: 75%;
+}
+.garantia-7-dias button {
+margin-top: 2%;
+margin-bottom: 2%;
+width: 100%;
+}
+
+.member-area {
+  
+  text-align: center;
+}
+
+.member-area iframe{
+  
+margin-bottom: 2%;
 }
