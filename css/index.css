@@ -20,3 +20,38 @@
 .header .text-blue {
     color: #2874fc;
 }
+
+.logo {
+  width: 94px;
+  height: 94px;
+}
+
+.background-light-blue {
+  background-color: #eaf1fd;
+}
+
+.background-blue {
+  background-color: #3270bc;
+}
+
+.testimonials {
+  background-image: url(../img/shark-background.webp);
+}
+
+.red-line {
+  height: 3px;
+  width: 10%;
+  background-color: red;
+}
+
+.background-medium-blue {
+  background-color: #548cde;
+}
+
+.garantaoseu {
+  background-image: url(../img/shark-background.webp);
+}
+
+.garantir-acesso-card-container {
+  background-color: black;
+}
