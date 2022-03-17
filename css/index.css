@@ -394,3 +394,7 @@ li {
   font-weight: 700;
   text-align: center;
 }
+
+.custom-justify {
+  text-align: justify;
+}

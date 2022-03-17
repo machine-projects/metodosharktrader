@@ -18,3 +18,30 @@ function elementVisible(el) {
         el.classList.add("animate");
   }
 }
+
+
+// TIMER 
+var minutes = 59;
+var seconds = 59;
+const minutesTimer = document.querySelector('#min-counter');
+const secondsTimer = document.querySelector('#seconds-counter');
+
+// contador dos minutos
+setInterval(() => {
+  if (minutes > 0) {
+   
+  }
+  else {
+    minutes--;
+    minutesTimer.innerHTML = minutes;
+  }
+}, 60000)
+
+// contador dos minutos
+setInterval(() => {
+  if (seconds > 0) {
+    seconds--;
+    secondsTimer.innerHTML = seconds;
+  }
+}, 1000)
+
