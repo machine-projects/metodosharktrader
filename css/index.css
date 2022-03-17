@@ -99,9 +99,30 @@ html {
   }
 }
 
+.fs-small {
+  font-size: small;
+}
+
+.fs-large {
+  font-size: large;
+}
+
+.fs-medium {
+  font-size: medium;
+}
+
+.fs-xlarge {
+  font-size: x-large;
+}
+
+
 /* FONT WEIGHT */
 .font-weight-bold {
-  font-weight: 700;
+  font-weight: 700 !important;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important; 
 }
 
 /* --------------------------------------- END OF GLOBALS----------------------------------------------- */
@@ -111,14 +132,17 @@ html {
 @keyframes buttonPulse {
   0% {
     transform: scale(1);
+    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.72);
   }
 
   50% {
     transform: scale(1.05);
+    box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.72);
   }
 
   100% {
     transform: scale(1);
+    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.72);
   }
 }
 
@@ -224,10 +248,12 @@ html {
 .garantaoseu button {
   margin-top: 5%;
   margin-bottom: 5%;
-
-
 }
 
+.btn:hover {
+  cursor: pointer;
+  animation-play-state: paused;
+}
 
 .garantaoseu .card{
   margin-bottom: 8%;
@@ -237,6 +263,15 @@ html {
   background-color: black;
   color: white;
   
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+li {
+  list-style: none;
 }
 
 .contentacess {
@@ -257,6 +292,11 @@ html {
 
 .pulse {
   animation: buttonPulse 1s ease infinite;
+  font-size: x-large;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  white-space: nowrap;
+  width: fit-content !important;
 }
 
 #photo3.animate {
@@ -350,4 +390,13 @@ html {
 }
 .timer img {
   max-width: 28%;
+}
+
+.h2 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.custom-justify {
+  text-align: justify;
 }
