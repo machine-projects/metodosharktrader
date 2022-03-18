@@ -501,12 +501,23 @@ li {
 .whatis {
   margin-bottom: 2%;
   margin-top: 2%;
+  text-align: center;
 }
 
+.testimonial-videos  {
+  text-align: center;
+}
 .testimonial-videos .h2 {
   margin-top: 2%;
 }
 .testimonial-videos iframe {
   min-height: 635px;
   margin-bottom: 35px;
+}
+@media only screen and (max-width: 600px) {
+.testimonial-videos iframe {
+  min-height: 545px;
+  margin-bottom: 0px;
+}
+
 }
