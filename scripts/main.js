@@ -15,9 +15,38 @@ function elementVisible(el) {
   let IsBeforeTop = bottom < window.pageYOffset;
 
   if (!IsOverBottom && !IsBeforeTop) {
-        el.classList.add("animate");
+    el.classList.add("animate");
   }
 }
+
+function showOrHideElement(element) {
+  let getElement = document.querySelector(`${element}`).classList;
+  let insHide = false;
+  getElement.forEach(e => {
+    if (e == 'collapse') insHide = true;
+  })
+
+  switch (insHide) {
+    case true:
+      getElement.remove('collapse')
+      break;
+    case false:
+      getElement.add('collapse')
+      break;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 // TIMER 
