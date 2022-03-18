@@ -50,8 +50,8 @@ function showOrHideElement(element) {
 
 
 // TIMER 
-var minutes = 59;
-var seconds = 59;
+var minutes = 14;
+var seconds = 60;
 const minutesTimer = document.querySelector('#min-counter');
 const secondsTimer = document.querySelector('#seconds-counter');
 

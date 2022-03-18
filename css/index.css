@@ -317,6 +317,49 @@ li {
     font-size: x-small;
     margin: 0 auto;
   }
+
+  .garantia-7-dias .container .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .owl-dots {
+    display: none;
+  }
+
+  .owl-carousel {
+    margin: auto;
+  }
+
+  .owl-nav button {
+
+  }
+
+  #aboutme-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 10px 0px 10px 0px;
+  }
+
+  #aboutme-photos div.col-4 {
+    width: 100% !important;
+    padding: 5px !important;
+  }
+
+  #aboutme-photos img {
+    animation: none !important;
+  }
+
+  #photo3 {
+    height: 100% !important;
+  }
+
+  div.container {
+    max-width: 95%;
+  }
 }
 
 #photo3.animate {
@@ -490,7 +533,7 @@ li {
   margin-top: 2%;
 }
 
-.footer button {
+.footer a {
   margin-bottom: 1%;
   border-radius: 30px;
 }
@@ -530,4 +573,8 @@ li {
     min-height: 545px;
     margin-bottom: 0px;
   }
+}
+
+#i-frame {
+  box-shadow: 0px 0px 25px -3px #FFFFFF;
 }
