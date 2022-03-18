@@ -216,7 +216,7 @@ body {
 .testimonials {
   background-image: url(../img/shark-background-opacity.webp);
   text-align: center;
-  margin-bottom: 2%;
+  /* margin-bottom: 2%; */
   /* margin-top: 2%; */
 }
 
@@ -288,7 +288,6 @@ li {
   text-align: center;
   color: white;
   margin-top: 2%;
-  margin-bottom: 2%;
 }
 
 .member-area iframe {
