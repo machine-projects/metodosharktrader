@@ -400,3 +400,8 @@ li {
 .custom-justify {
   text-align: justify;
 }
+
+.item {
+  border-radius: 10px;
+}
+

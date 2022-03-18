@@ -28,8 +28,8 @@ const secondsTimer = document.querySelector('#seconds-counter');
 
 // contador dos minutos
 setInterval(() => {
-  if (minutes > 0) {
-   
+  if (minutes == 0) {
+   clearInterval();
   }
   else {
     minutes--;
@@ -39,9 +39,15 @@ setInterval(() => {
 
 // contador dos minutos
 setInterval(() => {
-  if (seconds > 0) {
+  if (minutes == 0) {
+    clearInterval();
+  }
+  else if (seconds == 0) {
+    seconds = 59
+  }
+  else {
     seconds--;
-    secondsTimer.innerHTML = seconds;
+    secondsTimer.innerHTML = "<b>" + seconds + "</b>"w;
   }
 }, 1000)
 
