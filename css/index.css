@@ -287,10 +287,8 @@ li {
   margin-bottom: 2%;
 }
 
-.contentacess .col-md-4 {
-  /* background-color: #151515; */
-  /* border-radius: 30px; */
-  /* margin: 15px; */
+.member-area iframe {
+  min-height: 635px;
 }
 .contentacess .card {
   background-color: #151515;
@@ -509,5 +507,6 @@ li {
   margin-top: 2%;
 }
 .testimonial-videos iframe {
+  min-height: 635px;
   margin-bottom: 35px;
 }
