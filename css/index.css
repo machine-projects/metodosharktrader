@@ -192,6 +192,12 @@ body {
   background-size: cover;
   text-align: center;
 }
+.header button {
+  margin-bottom: 2%;
+}
+.header img {
+  margin-bottom: 1%;
+}
 
 .custom-1 {
   line-height: 40px;
@@ -264,11 +270,9 @@ body {
   box-shadow: 0 0 10px 0 white;
   background-color: black;
   color: white;
-  
 }
 .bonus .card .card-body {
   min-height: 250px;
-  
 }
 
 .card-title {
@@ -293,7 +297,7 @@ li {
 .contentacess .card {
   background-color: #151515;
   border-radius: 40px;
- margin: 2%;
+  margin: 2%;
 }
 
 .contentacess button {
@@ -469,7 +473,6 @@ li {
 .duvidas .btn {
   color: #fff;
   margin-top: 1%;
-
 }
 
 .duvidas .btn-outline-info:hover {
@@ -483,7 +486,6 @@ li {
   width: 100%;
 }
 
-
 .footer {
   text-align: center;
   margin-top: 2%;
@@ -491,7 +493,7 @@ li {
 
 .footer button {
   margin-bottom: 1%;
-  border-radius: 30px
+  border-radius: 30px;
 }
 
 .footer .footer-bottom-container {
@@ -504,7 +506,7 @@ li {
   text-align: center;
 }
 
-.testimonial-videos  {
+.testimonial-videos {
   text-align: center;
 }
 .testimonial-videos .h2 {
@@ -514,10 +516,19 @@ li {
   min-height: 635px;
   margin-bottom: 35px;
 }
-@media only screen and (max-width: 600px) {
-.testimonial-videos iframe {
-  min-height: 545px;
-  margin-bottom: 0px;
+
+.maincontent .title  {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.maincontent .pictures {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
+@media only screen and (max-width: 600px) {
+  .testimonial-videos iframe {
+    min-height: 545px;
+    margin-bottom: 0px;
+  }
 }
