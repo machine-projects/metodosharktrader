@@ -495,7 +495,8 @@ li {
   border-radius: 30px;
 }
 
-.footer .footer-bottom-container {
+.footer-bottom-container {
+  text-align: center;
   color: rgb(224, 212, 212);
 }
 

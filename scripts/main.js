@@ -80,3 +80,6 @@ setInterval(() => {
   }
 }, 1000)
 
+setTimeout(function () {
+  showOrHideElement('.body');
+}, 880000);
