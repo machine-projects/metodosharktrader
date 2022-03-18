@@ -527,9 +527,9 @@
               
             <div class="row justify-content-md-center">
                 <div class="seta-direita"></div>
-                <div class="btn btn-outline-info bg-blue col-md-10 bg-blue">Como vou ter acesso às aulas?</div>
+                <div onclick="showOrHideElement('#question-access')" class="btn btn-outline-info bg-blue col-md-10 bg-blue">Como vou ter acesso às aulas?</div>
               </div>
-                <div class="row justify-content-md-center">
+                <div id="question-access" class="row justify-content-md-center collapse">
                   <div class="col-md-10">
                     <div class="card">
                       <div class="card-body ">Após a confirmação do pagamento você receberá no seu e-mail cadastrado o link da plataforma onde terá
@@ -543,9 +543,9 @@
 
                   <div class="row justify-content-md-center">
                     <div class="seta-direita"></div>
-                    <div class="btn btn-outline-info bg-blue col-md-10">E se eu não gostar do Método?</div>
+                    <div onclick="showOrHideElement('#question-method')" class="btn btn-outline-info bg-blue col-md-10">E se eu não gostar do Método?</div>
                   </div>
-                  <div class="row justify-content-md-center">
+                  <div id="question-method" class="row justify-content-md-center collapse">
                     <div class="col-md-10">
                       <div class="card">
                         <div class="card-body ">Você tem 7 dias de garantia incondicional, onde basta me enviar um e-mail que eu devolvo 100% do seu
@@ -558,9 +558,9 @@
 
                   <div class="row justify-content-md-center">
                     <div class="seta-direita"></div>
-                    <div class="btn btn-outline-info bg-blue col-md-10">Por quanto tempo terei acesso às aulas e materiais complementares?</div>
+                    <div onclick="showOrHideElement('#question-material')" class="btn btn-outline-info bg-blue col-md-10 collapse">Por quanto tempo terei acesso às aulas e materiais complementares?</div>
                   </div>
-                  <div class="row justify-content-md-center">
+                  <div id="question-material" class="row justify-content-md-center collapse">
                     <div class="col-md-10">
                       <div class="card">
                         <div class="card-body ">O tempo de acesso para todo o conteúdo, por 12 meses, para que possa assistir quantas vezes quiser.</div>
@@ -572,9 +572,9 @@
 
                   <div class="row justify-content-md-center">
                     <div class="seta-direita"></div>
-                    <div class="btn btn-outline-info bg-blue col-md-10">Novas aulas serão inseridas?</div>
+                    <div onclick="showOrHideElement('#question-insert')" class="btn btn-outline-info bg-blue col-md-10">Novas aulas serão inseridas?</div>
                   </div>
-                  <div class="row justify-content-md-center">
+                  <div id="question-insert" class="row justify-content-md-center collapse">
                     <div class="col-md-10">
                       <div class="card">
                         <div class="card-body ">Você terá acesso a todas as atualizações, novas aulas que forem inseridas dentro da plataforma dentro
@@ -587,9 +587,9 @@
 
                   <div class="row justify-content-md-center">
                     <div class="seta-direita"></div>
-                    <div class="btn btn-outline-info bg-blue col-md-10">A compra é segura?</div>
+                    <div onclick="showOrHideElement('#question-safe')" class="btn btn-outline-info bg-blue col-md-10">A compra é segura?</div>
                   </div>
-                  <div class="row justify-content-md-center">
+                  <div id="question-safe" class="row justify-content-md-center collapse">
                     <div class="col-md-10">
                       <div class="card">
                         <div class="card-body ">O curso inteiro foi hospedado na plataforma mais conhecida e segura de toda América Latina, chamada
@@ -601,9 +601,9 @@
              
                   <div class="row justify-content-md-center">
                     <div class="seta-direita"></div>
-                    <div class="btn btn-outline-info bg-blue col-md-10">Após quanto tempo aplicando o método terei resultados?</div>
+                    <div onclick="showOrHideElement('#question-result')" class="btn btn-outline-info bg-blue col-md-10">Após quanto tempo aplicando o método terei resultados?</div>
                   </div>
-                  <div class="row justify-content-md-center">
+                  <div id="question-result" class="row justify-content-md-center collapse">
                     <div class="col-md-10">
                       <div class="card">
                         <div class="card-body ">Isso vai depender de quanto tempo você vai se dedicar ao app. Mas aplicando exatamente tudo o que foi
@@ -615,15 +615,14 @@
              
                   <div class="row justify-content-md-center">
                     <div class="seta-direita"></div>
-                    <div class="btn btn-outline-info bg-blue col-md-10">Terei suporte?</div>
+                    <div onclick="showOrHideElement('#question-suport')" class="btn btn-outline-info bg-blue col-md-10">Terei suporte?</div>
                   </div>
-                  <div class="row justify-content-md-center">
+                  <div id="question-suport" class="row justify-content-md-center collapse">
                     <div class="col-md-10">
                       <div class="card">
                         <div class="card-body ">Caso você tenha qualquer tipo de dúvida poderá entrar em contato diretamente com o nosso suporte
                         através do e-mail “suporte@metodosharktrader.com” e dentro de algumas horas você será respondido!</div>
                       </div>
-                      <hr>
                     </div>
                   </div>
            </div>

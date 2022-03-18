@@ -429,6 +429,7 @@ li {
 }
 .duvidas .btn {
  color: #fff;
+ margin-top: 1%;
  
 }
 .duvidas .btn-outline-info:hover {
@@ -442,8 +443,10 @@ li {
   width: 100%;
 }
 
+
 .footer {
   text-align: center;
+  margin-top: 2%;
 }
 .footer button{
   margin-bottom: 1%;
@@ -452,3 +455,4 @@ li {
 .footer .footer-bottom-container{
   color: rgb(224, 212, 212);
 }
+
