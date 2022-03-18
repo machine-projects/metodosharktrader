@@ -185,7 +185,7 @@ body {
 }
 
 .header {
-  background-image: url(../img/background.webp);
+  background-image: url(../img/background-dollar-bill.webp);
 
   background-position: center center;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@ body {
 }
 
 .testimonials {
-  background-image: url(../img/shark-background.webp);
+  background-image: url(../img/shark-background-opacity.webp);
   text-align: center;
   margin-bottom: 2%;
 }
@@ -263,6 +263,11 @@ body {
   box-shadow: 0 0 10px 0 white;
   background-color: black;
   color: white;
+  
+}
+.bonus .card .card-body {
+  min-height: 250px;
+  
 }
 
 .card-title {
@@ -277,6 +282,8 @@ li {
 .contentacess {
   text-align: center;
   color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .contentacess .col-md-4 {
@@ -295,8 +302,14 @@ li {
   font-size: x-large;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  white-space: nowrap;
   width: fit-content !important;
+}
+
+@media screen and (max-width: 500px) {
+  .pulse {
+    font-size: x-small;
+    margin: 0 auto;
+  }
 }
 
 #photo3.animate {
@@ -364,6 +377,12 @@ li {
   margin-top: 6%;
   border-radius: 30px;
   box-shadow: 0 0 10px 0 #6297ec;
+}
+.bonus .card-body {
+  min-height: 250px;
+}
+.bonus .card {
+  min-height: 350px;
 }
 
 .bonus .col-md-3 {
@@ -472,4 +491,9 @@ li {
 
 .footer .footer-bottom-container {
   color: rgb(224, 212, 212);
+}
+
+.whatis {
+  margin-bottom: 2%;
+  margin-top: 2%;
 }

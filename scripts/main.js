@@ -62,7 +62,7 @@ setInterval(() => {
   }
   else {
     minutes--;
-    minutesTimer.innerHTML = minutes;
+    minutesTimer.innerHTML = "<b>" + minutes + "</b>";
   }
 }, 60000)
 
@@ -76,7 +76,7 @@ setInterval(() => {
   }
   else {
     seconds--;
-    secondsTimer.innerHTML = "<b>" + seconds + "</b>"w;
+    secondsTimer.innerHTML = "<b>" + seconds + "</b>";
   }
 }, 1000)
 
