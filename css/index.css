@@ -192,9 +192,11 @@ body {
   background-size: cover;
   text-align: center;
 }
+
 .header button {
   margin-bottom: 2%;
 }
+
 .header img {
   margin-bottom: 1%;
 }
@@ -271,6 +273,7 @@ body {
   background-color: black;
   color: white;
 }
+
 .bonus .card .card-body {
   min-height: 250px;
 }
@@ -293,6 +296,7 @@ li {
 .member-area iframe {
   min-height: 635px;
 }
+
 .contentacess .card {
   background-color: #151515;
   border-radius: 40px;
@@ -331,9 +335,7 @@ li {
     margin: auto;
   }
 
-  .owl-nav button {
-
-  }
+  .owl-nav button {}
 
   #aboutme-photos {
     display: flex;
@@ -347,6 +349,22 @@ li {
   #aboutme-photos div.col-4 {
     width: 100% !important;
     padding: 5px !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  iframe {
+    width: 50%;
+  }
+
+  #depoimento-iframe-container .col-sm {
+    width: fit-content !important;
+    height: fit-content !important;
+  }
+
+  .video-iframe {
+    width: fit-content !important;
+    height: fit-content !important;
   }
 
   #aboutme-photos img {
@@ -359,6 +377,20 @@ li {
 
   div.container {
     max-width: 95%;
+  }
+
+  #timer-container {
+    width: 100% !important;
+    justify-content: center;
+  }
+
+  #button-ajustment {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  #botao-checkout {
+    width: 100% !important;
   }
 }
 
@@ -429,9 +461,11 @@ li {
   border-radius: 30px;
   box-shadow: 0 0 10px 0 #6297ec;
 }
+
 .bonus .card-body {
   min-height: 250px;
 }
+
 .bonus .card {
   min-height: 350px;
 }
@@ -551,18 +585,21 @@ li {
 .testimonial-videos {
   text-align: center;
 }
+
 .testimonial-videos .h2 {
   margin-top: 2%;
 }
+
 .testimonial-videos iframe {
   min-height: 635px;
   margin-bottom: 35px;
 }
 
-.maincontent .title  {
+.maincontent .title {
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
 .maincontent .pictures {
   margin-top: 2%;
   margin-bottom: 2%;
