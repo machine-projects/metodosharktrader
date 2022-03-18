@@ -211,6 +211,7 @@ body {
   background-image: url(../img/shark-background-opacity.webp);
   text-align: center;
   margin-bottom: 2%;
+  /* margin-top: 2%; */
 }
 
 .testimonials .margin-testimonials {
@@ -369,7 +370,7 @@ li {
 
 .member-area iframe {
   margin-bottom: 2%;
-  width: inherit;
+  /* width: inherit; */
 }
 
 .bonus {
@@ -502,4 +503,11 @@ li {
 .whatis {
   margin-bottom: 2%;
   margin-top: 2%;
+}
+
+.testimonial-videos .h2 {
+  margin-top: 2%;
+}
+.testimonial-videos iframe {
+  margin-bottom: 35px;
 }
