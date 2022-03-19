@@ -7,11 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Método Shark Trader</title>
   <!-- CSS only -->
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-    integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/index.css" />
   <link rel="stylesheet" href="./css/statusbar.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -21,6 +19,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </style>
 
 </head>
 
@@ -51,7 +51,7 @@
       <div class="row">
         <div class="col justify-content-md-center">
           <div class="col text-white roboto">
-            <span class="roboto font-weight-bold fs-small"><i aria-hidden="true" class="fas fa-volume-up"></i> POR
+            <span id="volume-up" class="roboto font-weight-bold fs-small"> <img src="./img/volume-up-4-16.png" alt="volume"> POR
               FAVOR, VERIFIQUE SE O SEU SOM ESTÁ
               LIGADO! </span>
           </div>
@@ -177,8 +177,8 @@
             </div>
             <div class="col-sm mobile-container">
 
-              <div class="video-iframe lazy">
-                <iframe class="video-responsive-iframe"
+              <div class="video-iframe">
+                <iframe class="video-responsive-iframe lazy"
                   data-src="https://cdn.converteai.net/09940bd8-7e79-49e1-9b92-91fc2e5cb287/players/621cf6883a6bc9000820d0b6/embed.html"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
