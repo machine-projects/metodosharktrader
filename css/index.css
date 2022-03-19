@@ -367,12 +367,23 @@ li {
     height: fit-content !important;
   }
 
+  #depoimento-iframe-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   #aboutme-photos img {
     animation: none !important;
   }
 
   #photo3 {
     height: 100% !important;
+  }
+
+  .mobile-container {
+    max-width: 50% !important;
+    max-height: auto !important;
   }
 
   div.container {
@@ -392,6 +403,21 @@ li {
   #botao-checkout {
     width: 100% !important;
   }
+
+  #depoimentos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .depoimento-img-container {
+    width: 50%;
+  }
+  
+  .depoimento-img-container img {
+    width: 100%;
+  }
+
 }
 
 #photo3.animate {
@@ -608,7 +634,8 @@ li {
 
 @media only screen and (max-width: 600px) {
   .testimonial-videos iframe {
-    min-height: 545px;
+    min-height: 320px;
+    width: 100%;
     margin-bottom: 0px;
   }
 }
