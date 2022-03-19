@@ -106,13 +106,13 @@
           </div>
           <div id="aboutme-photos" class="row position-relative pictures">
             <div class="col-4 justify-content-md-center pt-2">
-              <img id="photo1" class="img-fluid  animate" src="./img/lucas-trader-1-min.png" alt="foto do lucas achado">
+              <img id="photo1" class="img-fluid  lazy" data-src="./img/lucas-trader-1-min.png" alt="foto do lucas achado">
             </div>
             <div class="col-4 justify-content-md-center p-0">
-              <img id="photo2" class="img-fluid  animate" src="./img/lucas-trader-2-min.png" alt="foto do lucas achado">
+              <img id="photo2" class="img-fluid  animate lazy" data-src="./img/lucas-trader-2-min.png" alt="foto do lucas achado">
             </div>
             <div class="col-4 justify-content-md-center pt-2">
-              <img id="photo3" class="img-fluid  animate" src="./img/lucas-trader-3-min.png" alt="foto do lucas achado">
+              <img id="photo3" class="img-fluid  animate lazy" data-src="./img/lucas-trader-3-min.png" alt="foto do lucas achado">
             </div>
           </div>
           <div class="row">
@@ -150,8 +150,8 @@
           <div id="depoimento-iframe-container" class="row justify-content-center my-4">
             <div class="col-sm mobile-container">
               <div class="video-iframe">
-                <iframe class="video-responsive-iframe"
-                  src="https://cdn.converteai.net/09940bd8-7e79-49e1-9b92-91fc2e5cb287/players/621cecdf3a6bc9000820d0ae/embed.html"
+                <iframe class="video-responsive-iframe lazy"
+                  data-src="https://cdn.converteai.net/09940bd8-7e79-49e1-9b92-91fc2e5cb287/players/621cecdf3a6bc9000820d0ae/embed.html"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
@@ -159,8 +159,8 @@
             </div>
             <div class="col-sm mobile-container">
               <div class="video-iframe">
-                <iframe class="video-responsive-iframe"
-                  src="https://cdn.converteai.net/09940bd8-7e79-49e1-9b92-91fc2e5cb287/players/621cf6363a6bc9000820d0b2/embed.html"
+                <iframe class="video-responsive-iframe lazy"
+                  data-src="https://cdn.converteai.net/09940bd8-7e79-49e1-9b92-91fc2e5cb287/players/621cf6363a6bc9000820d0b2/embed.html"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
@@ -168,8 +168,8 @@
             </div>
             <div class="col-sm mobile-container">
               <div class="video-iframe">
-                <iframe class="video-responsive-iframe"
-                  src="https://cdn.converteai.net/09940bd8-7e79-49e1-9b92-91fc2e5cb287/players/621cf6543a6bc9000820d0b4/embed.html"
+                <iframe class="video-responsive-iframe lazy"
+                  data-src="https://cdn.converteai.net/09940bd8-7e79-49e1-9b92-91fc2e5cb287/players/621cf6543a6bc9000820d0b4/embed.html"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
@@ -177,9 +177,9 @@
             </div>
             <div class="col-sm mobile-container">
 
-              <div class="video-iframe">
+              <div class="video-iframe lazy">
                 <iframe class="video-responsive-iframe"
-                  src="https://cdn.converteai.net/09940bd8-7e79-49e1-9b92-91fc2e5cb287/players/621cf6883a6bc9000820d0b6/embed.html"
+                  data-src="https://cdn.converteai.net/09940bd8-7e79-49e1-9b92-91fc2e5cb287/players/621cf6883a6bc9000820d0b6/embed.html"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
@@ -718,7 +718,10 @@
   </div>
 
 
-  <script  src="./scripts/main.js"></script>
+  <script src="./scripts/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/17.3.1/lazyload.min.js"
+    integrity="sha512-lVcnjCLGjJTaZU55wD7H3f8SJVi6VV5cQRcmGuYcyIY607N/rzZGEl90lNgsiEhKygATryG/i6e5u2moDFs5kQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
