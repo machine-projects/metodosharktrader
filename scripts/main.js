@@ -24,7 +24,7 @@ function showBody() {
 function timeShowBody() {
   setTimeout(function () {
     showBody()
-  }, 880000);
+  }, 95800);
 }
 
 function startWebSite() {
