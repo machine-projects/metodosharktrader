@@ -154,6 +154,11 @@ body {
         font-size: large;
     }
 
+    img[data-src="./img/timer.webp"] {
+       max-width: 200px !important;
+       max-height: 200px !important;
+    }
+
     #volume-up {
         font-size: small !important;
     }
