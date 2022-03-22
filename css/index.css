@@ -166,6 +166,31 @@ body {
     .row .col .fs-small {
         font-size: small;
     }
+
+    .cartao-boleto-custom-div1 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #emails-container {
+        justify-content: center;
+    }
+
+    .btn.cartao-custom-btn {
+        margin: 10%;
+        font-size: large;
+    }
+
+    .custom-boleto-text {
+        font-size: larger;
+        margin-top: -30px;
+        margin-bottom: -30px;
+    }
+
+    .custom-boleto-paragrafo {
+        font-size: large !important;
+    }
 }
 
 .header {
@@ -688,3 +713,4 @@ li {
     text-align: center;
     width: 75%;
 }
+
